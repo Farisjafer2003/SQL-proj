@@ -45,8 +45,11 @@ insert into employees (name,email,salary,department_id) values
 ("Faris","Faris@gmail.com",10000,1),
 ("Nifer","nifer@gmail.com",40000,3),
 ("Yaseen","yaseen@gmail.com",98000,2);
+
 select *from employees;
+
 select *from departments;
+
 #Q.to find the highest salary
 select MAX(salary)from employees;
 
